@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="Nhập Tên:"/>
         <EditText
-            android:id="@+id/edtTen"
+            android:id="@+id/edtten"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Tên của bạn"/>
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:text="Chiều Cao:"/>
         <EditText
-            android:id="@+id/edtChieuCao"
+            android:id="@+id/edtchieucao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Nhập chiều cao (m)"
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:text="Cân Nặng:"/>
         <EditText
-            android:id="@+id/edtCanNang"
+            android:id="@+id/edtcannang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Nhập cân nặng (kg)"
