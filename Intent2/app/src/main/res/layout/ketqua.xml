@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp" >
+
+    <!-- Tiêu đề kết quả -->
+
+    <!-- Hiển thị kết quả -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Kết quả giải phương trình bậc 1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtketqua"
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/design_default_color_secondary"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="-1.75"
+        android:textColor="#0D0D0D"
+        android:textSize="24sp" />
+
+    <!-- Nút Back -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Back" />
+
+</LinearLayout>

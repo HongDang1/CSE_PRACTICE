@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tiêu đề: Giải phương trình bậc 1 -->
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Giải phương trình bậc 1"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Nhập giá trị a -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập a:"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/txta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nhập giá trị a" />
+
+    <!-- Nhập giá trị b -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập b:"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/txtb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nhập giá trị b" />
+
+    <!-- Nút Kết quả -->
+    <Button
+        android:id="@+id/btnketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:paddingTop="24dp"
+        android:text="Kết quả" />
+
+</LinearLayout>
