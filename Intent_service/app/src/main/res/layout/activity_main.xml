@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    tools:ignore="ExtraText"> <!-- Black background -->
+
+    <!-- ImageView for the image -->
+
+    <!-- Play Button -->
+
+    <!-- Stop Button -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="434dp"
+        android:layout_height="788dp"
+        android:contentDescription="nhac"
+        android:src="@drawable/nhac" />
+
+    <ImageButton
+        android:id="@+id/imgstart"
+        android:layout_width="318dp"
+        android:layout_height="339dp"
+        android:background="@null"
+        android:contentDescription="Play"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/imgstop"
+        android:layout_width="343dp"
+        android:layout_height="213dp"
+        android:background="@null"
+        android:contentDescription="Stop"
+        android:src="@drawable/stop" />
+
+</LinearLayout>
