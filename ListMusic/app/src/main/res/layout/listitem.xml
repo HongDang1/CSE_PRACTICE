@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Mã số bài hát -->
+    <TextView
+        android:id="@+id/txtmaso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="52300"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#0000FF" />
+
+    <!-- Tiêu đề bài hát -->
+    <TextView
+        android:id="@+id/txttieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Em là ai Tôi là ai"
+        android:textSize="16sp" />
+
+    <!-- Nút like/unlike -->
+    <ImageButton
+        android:id="@+id/btnlike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/unlike"
+        android:background="@null" />
+
+</LinearLayout>
