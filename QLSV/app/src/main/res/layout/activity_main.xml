@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView tiêu đề -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ SINH VIÊN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <!-- LinearLayout chứa mã lớp -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã lớp"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edtmalop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Nhập mã lớp" />
+    </LinearLayout>
+
+    <!-- LinearLayout chứa tên lớp -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên lớp"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edttenlop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Nhập tên lớp" />
+    </LinearLayout>
+
+    <!-- LinearLayout chứa sĩ số -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sĩ số"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edtsiso"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Nhập sĩ số"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <!-- LinearLayout chứa các nút chức năng -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btninsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSERT" />
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE" />
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE" />
+
+        <Button
+            android:id="@+id/btnquery"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="QUERY" />
+    </LinearLayout>
+
+    <!-- ListView để hiển thị danh sách lớp -->
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
