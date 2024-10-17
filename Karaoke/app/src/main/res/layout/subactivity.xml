@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <!-- Row 1: Mã số -->
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#"
+            android:textAlignment="textEnd"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtmaso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã Số"
+            android:textColor="#131414"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <!-- Row 2: Tên bài hát -->
+    <TableRow>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên bài hát:" />
+
+        <TextView
+            android:id="@+id/txtbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHÉN ĐẮNG (REMIX)"
+            android:textStyle="bold"
+            android:textColor="#4CAF50" />
+    </TableRow>
+
+    <!-- Row 3: Lời bài hát -->
+    <TableRow>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lời bài hát:" />
+
+        <TextView
+            android:id="@+id/txtloibaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Một ngày anh nhớ, nhớ bóng hình em, trái tim..." />
+    </TableRow>
+
+    <!-- Row 4: Tác giả -->
+    <TableRow>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tác giả:" />
+
+        <TextView
+            android:id="@+id/txttacgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trương Lê Sơn"
+            android:textStyle="bold"
+            android:textColor="#4CAF50" />
+    </TableRow>
+
+    <!-- Row 5: Yêu thích với các nút like/unlike -->
+    <TableRow>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yêu Thích:" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- Nút Like -->
+            <ImageButton
+                android:id="@+id/btnthich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_like"
+                android:contentDescription="Like"
+                android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+            <!-- Nút Unlike -->
+            <ImageButton
+                android:id="@+id/btnkhongthich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_unlike"
+                android:contentDescription="Unlike"
+                android:layout_marginLeft="10dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless" />
+        </FrameLayout>
+    </TableRow>
+
+</TableLayout>
